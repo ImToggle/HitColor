@@ -139,7 +139,7 @@ public class HitColorConfig extends Config {
     public HitColorConfiguration enderDragon = new HitColorConfiguration("Ender Dragon");
 
     public HitColorConfig() {
-        super(new Mod(HitColor.NAME, ModType.UTIL_QOL, "/damagetint_dark.svg"), HitColor.MODID + ".json");
+        super(new Mod(HitColor.NAME, ModType.UTIL_QOL, "/hitcolor.svg"), HitColor.MODID + ".json");
         initialize();
 
         addDependency("affectedByBrightness", "globalOverride", () -> globalOverride != 0);
